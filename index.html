@@ -7,6 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        p{
+            color:green;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/main.css">
+
+
 </head>
 <body>
         <!--SYMANTIC elements-->
@@ -18,11 +28,11 @@
         </header>
 
         <ul>
-            <li>List Item 1 </li>
+            <li class="FirstItem">List Item 1 </li>
             <li>List Item 2 </li>
         </ul>
         <ol>
-            <li>List Item 1 </li>
+            <li class="FirstItem">List Item 1 </li>
             <li>List Item 2 </li>
         </ol>
 
@@ -40,19 +50,20 @@
         <b>Bold Text</b>
         <i>Italic Text</i>
         
-        <h1>I am a header 1 element</h1>   
-        <h2>I am a header 2 element</h2>   
+        <h1 id="firstH1">I am a header 1 element</h1>   
+        <h1>I am a header 1 element</h1> 
+               <h2>I am a header 2 element</h2>   
         <h6>I am a header 6 element</h6>   
 
         <table border =1>
             <tr>
                 <thead>
-                    <th>First Name</th>
+                    <th class="FirstItem">First Name</th>
                     <th>Last Name</th>
                 </thead>
             </tr>
             <tr>
-                <td>Check</td>
+                <td class="FirstItem">Check</td>
                 <td>Bentley</td>
             </tr>
         </table>
@@ -63,7 +74,7 @@
             This is my footer
         </footer>
         -->
-        
+
         <!--End SYMANTIC elements-->
         <p>I am a paragraph element</p>
         <p>I am a paragraph element also</p>
